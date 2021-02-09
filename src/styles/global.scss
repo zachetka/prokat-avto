@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    outline: none;
+}
+
+body {
+    font-family: $fontFamily;    
+    font-weight: 400;
+    font-size: 24px;  
+    line-height: 1.25;  
+    color: $white;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+input:not([type=checkbox]):not([type=radio]), textarea {
+    display: block;
+    width: 100%;
+    resize: none;
+    font-family: $fontFamily;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1170px;
+}
