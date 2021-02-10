@@ -1,0 +1,35 @@
+.cover {
+    padding: 200px 0 180px;
+    background: url('/src/images/cover.jpg') no-repeat bottom/cover;
+    @media (max-width: 600px){
+        padding: 100px 0 100px;                
+    }   
+    &__title {
+        margin-bottom: 40px;
+        max-width: 680px;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: $bright;
+        @media (max-width: 600px){
+            font-size: 48px;         
+        }  
+        @media (max-width: 440px){
+            font-size: 36px;         
+        }  
+    }
+    &__subtitle {
+        margin-bottom: 110px;
+        max-width: 385px;
+        font-size: 30px;
+        line-height: 1.4;
+        color: $white;
+        @media (max-width: 600px){
+            font-size: 24px;        
+            margin-bottom: 40px; 
+        }  
+        @media (max-width: 440px){
+            font-size: 20px;         
+        }  
+    }
+}

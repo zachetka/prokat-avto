@@ -1,1 +1,24 @@
-
+.header {    
+    background-color: $primary;
+    &__inner {        
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        width: 225px;
+        height: 48px;
+        @media (max-width: 600px){
+            width: 180px;   
+        }  
+    }
+    &__phone {
+        font-size: 24px;
+        line-height: 1;
+        color: $white;
+        @media (max-width: 600px){
+            display: none;        
+        }  
+    }
+}
