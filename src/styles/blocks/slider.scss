@@ -1,0 +1,35 @@
+.slider {
+    padding: 50px 0;
+    background-color: $primary;
+    &__item {
+        text-align: center;
+        
+    }
+    &__item-img {
+        max-width: 200px;
+        margin: 0 auto 16px;    
+    }
+    &__item-text {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.33;
+    }
+}
+
+.slick-arrow {
+    position: absolute;    
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    &--prev {
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);        
+    }
+    &--next {
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+}
